@@ -269,12 +269,25 @@ dotContainer.addEventListener('click', function(e){
 })
 
 document.addEventListener('keydown', function(e){
-  console.log(e);
   if(e.key === 'ArrowLeft') prevSlide();
   e.key === 'ArrowRight' && nextSlide();
 })
 }
 slider();
+
+// document.addEventListener('DOMContentLoaded', function(e){
+//   console.log('HTML Loaded', e)
+// })
+
+// window.addEventListener('load', function(e){
+//   console.log('Page Fully Loaded', e)
+// })
+
+// window.addEventListener('beforeunload', function(e){
+//   e.preventDefault();
+//   console.log(e)
+//   e.returnValue = '';
+// })
 
 
 
